@@ -1,0 +1,37 @@
+/* Opcional: Puedes añadir más estilos en tu archivo .css del componente */
+.encabezado {
+    background-color: transparent;
+}
+
+.nav-references {
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    margin: 30px 40px 0 40px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    font-weight: 200;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link {
+    color: RGB(213, 213, 213, 0.5);
+}
+
+ul {
+    margin-bottom: 30px;
+}
+
+button {
+    color: RGB(213, 213, 213, 0.5);
+    font-weight: 200;
+}
