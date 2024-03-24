@@ -1,0 +1,28 @@
+.imagen {
+    background-image:linear-gradient(
+        rgba(20, 39, 74, 0.5),
+        rgba(20, 39, 74, 0.5) 
+      ), url('../../assets/imagen-header/hostal-vista-afuera.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    height: 100%; 
+    width: 100%;
+}
+
+
+@media screen and (max-width: 700px) {
+    .imagen {
+        min-height: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .imagen {
+        min-height: 200px;
+    }
+}
+
+    
+
