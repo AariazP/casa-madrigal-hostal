@@ -1,6 +1,6 @@
 #section{
     color: white;
-    margin-top: -150px;
+    margin-top: -20px;
 }
 
 #btn-escribenos {
@@ -77,6 +77,17 @@ p{
 
 }
 
+h6{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+#arrow{
+    font-size: 30px;
+}
 #container{
     display: flex;
     justify-content: center;
