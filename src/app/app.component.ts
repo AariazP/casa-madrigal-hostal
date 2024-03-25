@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { MainSectionComponent } from './main-section/main-section.component';
 import { InfoComponent } from './info/info.component';
 import { InfoHabitacionComponent } from './info-habitacion/info-habitacion.component';
+import { DoFilandiaComponent } from './do-filandia/do-filandia.component';
 
 @Component({
     selector: 'app-root',
@@ -19,7 +20,8 @@ import { InfoHabitacionComponent } from './info-habitacion/info-habitacion.compo
       HeadComponent,
       MainSectionComponent,
       InfoComponent,
-      InfoHabitacionComponent
+      InfoHabitacionComponent,
+      DoFilandiaComponent
     ]
 })
 export class AppComponent {
