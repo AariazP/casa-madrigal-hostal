@@ -1,0 +1,53 @@
+.imagen {
+    background-image:url('../../assets/contactanos/Union\ 3.png');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    height: 400px; 
+    display: flex;
+    margin-top: -70px;
+    z-index: -100;
+    
+}
+.items{
+    margin-top: 150px;
+}
+
+@media (max-width:812){
+    .items{
+        margin-top: 10px;
+        background-color: RGB(246, 85, 137); 
+    }
+    .row{
+        background-color: RGB(246, 85, 137); 
+    }
+    .imagen{
+        height: 200px;
+        margin-top: 60px;
+    }
+}
+@media (max-width: 548px){
+   #container{
+         margin-top: 50px;
+   }
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Beau Rivage One';
+    color: RGB(20, 39, 74);
+    text-align: center;
+    margin-top: -15px;
+}
+h6{
+    font-size: 20px;
+    font-family: 'Aref Ruqaa Ink';
+    color: RGB(20, 39, 74);
+    text-align: center;
+    margin-top: 20px;
+    font-style: Bold;
+    font-weight: 300px;
+}
+
+
