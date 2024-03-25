@@ -1,0 +1,101 @@
+#container{
+    margin-top: 30px;
+}
+
+#text-container{
+    border-left: 5px solid RGB(246, 85, 137);
+    padding-left: 70px;
+}
+
+button{
+    background-color: RGB(246, 85, 137);
+    margin-top: 30px;
+}
+
+button:hover{
+    background-color: RGB(193,59,102);
+}
+
+p{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: RGB(20, 39, 74);
+    margin-top: 50px;
+    justify-content:space-between;
+
+}
+
+h3{
+    font-family: 'Aref Ruqaa ink';
+    font-size: 35px;
+    font-weight: 600;
+}
+
+img{
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 0px #adacac;
+}
+
+@media (max-width: 585px) {
+    #text-container{
+        padding-left: 0;
+        border-left: none;
+    }
+    h3{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+@media (max-width: 575px) {
+    #text-container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .content button{
+        margin-bottom: 30px; /* Aquí cambiamos 100px a 30px */
+        margin-left: auto; /* Esto centra horizontalmente el botón */
+        margin-right: auto; /* Esto centra horizontalmente el botón */
+        display: block; 
+    }
+    img{
+        margin-top: 30px;
+    }
+}
+
+.content{
+    max-width: 70%;
+}
+
+@media (max-width: 768px) {
+    .content{
+        max-width: 100%;
+    }
+
+    p{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1230px) {
+    p{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 992px) {
+    p{
+        font-size: 15px;
+    }
+    .content{
+        max-width: 100%;
+    }
+}

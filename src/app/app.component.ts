@@ -4,6 +4,8 @@ import { HeadComponent } from "./head/head.component";
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MainSectionComponent } from './main-section/main-section.component';
+import { InfoComponent } from './info/info.component';
+import { InfoHabitacionComponent } from './info-habitacion/info-habitacion.component';
 
 @Component({
     selector: 'app-root',
@@ -15,7 +17,9 @@ import { MainSectionComponent } from './main-section/main-section.component';
       CommonModule,
       NavbarComponent,
       HeadComponent,
-      MainSectionComponent
+      MainSectionComponent,
+      InfoComponent,
+      InfoHabitacionComponent
     ]
 })
 export class AppComponent {

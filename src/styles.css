@@ -10,3 +10,7 @@
     font-family: 'Beau Rivage';
     src: url('../src/assets/fuente/Beau_Rivage/BeauRivage-Regular.ttf') format('woff');
 }
+@font-face {
+    font-family: 'Aref Ruqaa ink';
+    src: url('../src/assets/fuente/Aref_Ruqaa_Ink/ArefRuqaaInk-Regular.ttf') format('woff');
+}
