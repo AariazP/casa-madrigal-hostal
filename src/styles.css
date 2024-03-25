@@ -5,3 +5,8 @@
     font-family: 'Montserrat';
     src: url('../src/assets/fuente/Montserrat/Montserrat-VariableFont_wght.ttf') format('woff');
 }
+
+@font-face {
+    font-family: 'Beau Rivage';
+    src: url('../src/assets/fuente/Beau_Rivage/BeauRivage-Regular.ttf') format('woff');
+}

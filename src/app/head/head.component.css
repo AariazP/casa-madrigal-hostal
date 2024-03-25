@@ -8,7 +8,6 @@
     background-repeat: no-repeat;
     min-height: 700px;
     height: 100%; 
-    width: 100%;
     display: flex;
 }
 
@@ -25,5 +24,7 @@
     }
 }
 
-    
+app-navbar{
+    max-height: 100px;
+}
 

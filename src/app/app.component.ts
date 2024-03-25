@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeadComponent } from "./head/head.component";
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
+import { MainSectionComponent } from './main-section/main-section.component';
 
 @Component({
     selector: 'app-root',
@@ -13,9 +14,10 @@ import { NavbarComponent } from './navbar/navbar.component';
       HeadComponent,
       CommonModule,
       NavbarComponent,
-      HeadComponent
+      HeadComponent,
+      MainSectionComponent
     ]
 })
 export class AppComponent {
-  title = 'hostal-casa-madrigal';
+  title = 'Casa madrigal';
 }

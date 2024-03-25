@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { NavbarComponent } from "../navbar/navbar.component";
+import { MainSectionComponent } from '../main-section/main-section.component';
 
 @Component({
     selector: 'app-head',
@@ -9,7 +10,8 @@ import { NavbarComponent } from "../navbar/navbar.component";
     styleUrl: './head.component.css',
     imports: [
         CommonModule,
-        NavbarComponent
+        NavbarComponent,
+        MainSectionComponent
     ]
 })
 export class HeadComponent {
