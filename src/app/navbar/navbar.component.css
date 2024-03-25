@@ -1,37 +1,74 @@
-/* Opcional: Puedes añadir más estilos en tu archivo .css del componente */
-.encabezado {
+nav{
     background-color: transparent;
+    margin-top: -15px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.nav-references {
-    justify-content: center;
-    display: flex;
-    height: 40px;
-    margin: 30px 40px 0 40px;
-    border-radius: 5px;
-    color: white;
 
-}
+.navbar {
+    background-color: transparent;
+  }
+  
+  .navbar-brand {
+    margin-right: 1rem;
+  }
+  
+  .navbar-toggler {
+    margin-left: auto;
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  .nav-item {
+    margin-right: 1rem;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .nav-link:hover {
+    color: #ffffff;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .navbar-toggler {
+      margin-bottom: 1rem;
+    }
 
-li {
-    display: inline-block;
-    margin: 0 10px 0 10px;
-    font-weight: 200;
-}
+    img{
+        max-width: 5rem;
+        max-height: 4rem;
+    }
+    nav{
+        margin-top: -10px;
+        margin-left: 30px;
+    }
+  }
 
-.nav-link:hover {
-    color: white;
-}
-
-.nav-link {
-    color: RGB(213, 213, 213, 0.5);
-}
-
-ul {
-    margin-bottom: 30px;
-}
-
-button {
-    color: RGB(213, 213, 213, 0.5);
-    font-weight: 200;
+  @media (max-width: 495px) { 
+    img{
+        max-width: 4rem;
+        max-height: 3rem;
+    }
+    nav{
+        margin-left: 30px;
+    }
+  }
+  
+img{
+    max-width: 7rem;
+    height: 5rem;
+    cursor:auto;
 }
