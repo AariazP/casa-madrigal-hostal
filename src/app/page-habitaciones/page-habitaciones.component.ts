@@ -5,6 +5,7 @@ import { InfoHabitacionesComponent } from "../info-habitaciones/info-habitacione
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { CuartoComponent } from "../cuarto/cuarto.component";
+import { HabitacionDTO } from '../DTO/habitacionDTO';
 
 @Component({
     selector: 'app-page-habitaciones',
@@ -16,7 +17,7 @@ import { CuartoComponent } from "../cuarto/cuarto.component";
 export class PageHabitacionesComponent {
 
 
-    listaHabitaciones: any[];
+    listaHabitaciones: HabitacionDTO[];
 
     constructor(private http: HttpClient) {
         this.listaHabitaciones = [];
@@ -36,8 +37,8 @@ export class PageHabitacionesComponent {
       });
     }
   
-    async cargarHabitaciones(): Promise<Observable<any[]>> {
-      return await this.http.get<any[]>('../../assets/cuartos/habitaciones.json');
+    async cargarHabitaciones(): Promise<Observable<HabitacionDTO[]>> {
+      return await this.http.get<HabitacionDTO[]>('../../assets/cuartos/habitaciones.json');
     }
 
 }

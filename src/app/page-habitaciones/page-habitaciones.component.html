@@ -3,9 +3,10 @@
 @for(habitacion of listaHabitaciones; track habitacion;){
     <div>
         <!--Convierto habitacion a json-->
-        <h1>{{
-            1
-            }}</h1>
+        <p>precio {{habitacion.precio}}</p>
+        <p>descripcion {{habitacion.descripcion}}</p>
+        @for(imagen of habitacion.img; track imagen;){
+            <img src="{{imagen}}" alt="imagen de habitacion">
+        }
     </div>
 }
-    
