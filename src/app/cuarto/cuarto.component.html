@@ -1,34 +1,33 @@
 <div id="cuarto">
     <h3 class="text-center">{{cuarto.nombre}}</h3>
-    <div [id]="cuarto.nombre" class="carousel slide">
+    <div [id]="cuarto.idNombre" class="carousel slide">
         <div class="carousel-inner">
           @for(imagen of cuarto.imagenes; track imagen;let idx = $index){
             <div class="carousel-item" [ngClass]="{'active': idx === 0}">
-              <img [src]="imagen" loading="lazy" class="d-block w-100 imagen img-fluid" [alt]="cuarto.nombre">
+              <img [src]="imagen" loading="lazy" class="d-block w-100 imagen img-fluid" [alt]="cuarto.idNombre">
             </div>
           }        
         </div>
-        <button class="carousel-control-prev" type="button"[attr.data-bs-target]="'#'+cuarto.nombre" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button"[attr.data-bs-target]="'#'+cuarto.idNombre" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" [attr.data-bs-target]="'#'+cuarto.nombre"  data-bs-slide="next">
+        <button class="carousel-control-next" type="button" [attr.data-bs-target]="'#'+cuarto.idNombre"  data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <div class="accordion" id="accordion">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Ver detalles
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-    </div>    
+    <div>
+      <h3 class="text-center">Características</h3>
+      
+      @if(cuarto.banio){
+        <p class="text-center">
+          <img src="../../assets/icons/banio.png" id="banio">Baño privado
+        </p>
+      }
+      <p class="text-center">
+        <i class="bi bi-people"></i> Capacidad: {{cuarto.numeroPersonas}}
+      </p>
+      
+    </div>  
 </div>
