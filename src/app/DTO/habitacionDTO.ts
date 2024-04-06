@@ -1,7 +1,6 @@
-export interface HabitacionDTO{
+import { CuartoDTO } from "./cuartoDTO";
 
-    tipo: string;
-    precio: number;
-    descripcion: string;
-    img: string[];
+export interface HabitacionDTO extends CuartoDTO {
+
+   
 }

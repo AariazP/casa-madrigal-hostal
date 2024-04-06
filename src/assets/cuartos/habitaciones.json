@@ -1,32 +1,106 @@
 [
     {
-        "tipo": "individual",
-        "precio": 50,
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec purus.",
+        "id": 1,
+        "tipo": "Multiple",
+        "nombre": "Argenzul",
+        "precio": 50000,
+        "numeroPersonas": 6,
         "imagenes": [
-            "https://via.placeholder.com/150",
-            "https://via.placeholder.com/150",
-            "https://via.placeholder.com/150"
+            "../assets/habitaciones/habitacion_1/imagen_1.jpg",
+            "../assets/habitaciones/habitacion_1/imagen_2.jpg",
+            "../assets/habitaciones/habitacion_1/imagen_3.jpg",
+            "../assets/habitaciones/habitacion_1/imagen_4.jpg",
+            "../assets/habitaciones/habitacion_1/imagen_5.jpg",
+            "../assets/habitaciones/habitacion_1/imagen_6.jpg",
+            "../assets/habitaciones/habitacion_1/imagen_7.jpg",
+            "../assets/habitaciones/habitacion_1/imagen_8.jpg",
+            "../assets/habitaciones/habitacion_1/imagen_9.jpg"
         ]
-    },
-    {
-        "tipo": "doble",
-        "precio": 80,
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec purus.",
+    },{
+        "id": 2,
+        "tipo": "Multiple",
+        "nombre": "Vergel",
+        "precio": 50000,
+        "numeroPersonas": 7,
         "imagenes": [
-            "https://via.placeholder.com/150",
-            "https://via.placeholder.com/150",
-            "https://via.placeholder.com/150"
+            "../assets/habitaciones/habitacion_2/imagen_1.jpg",
+            "../assets/habitaciones/habitacion_2/imagen_2.jpg",
+            "../assets/habitaciones/habitacion_2/imagen_3.jpg",
+            "../assets/habitaciones/habitacion_2/imagen_4.jpg",
+            "../assets/habitaciones/habitacion_2/imagen_5.jpg",
+            "../assets/habitaciones/habitacion_2/imagen_6.jpg",
+            "../assets/habitaciones/habitacion_2/imagen_7.jpg"
         ]
-    },
-    {
-        "tipo": "triple",
-        "precio": 100,
-        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec purus.",
+    },{
+        "id": 3,
+        "tipo": "Multiple",
+        "nombre": "Santa Teresa",
+        "precio": 50000,
+        "numeroPersonas": 4,
         "imagenes": [
-            "https://via.placeholder.com/150",
-            "https://via.placeholder.com/150",
-            "https://via.placeholder.com/150"
+            "../assets/habitaciones/habitacion_3/imagen_1.jpg",
+            "../assets/habitaciones/habitacion_3/imagen_2.jpg",
+            "../assets/habitaciones/habitacion_3/imagen_3.jpg",
+            "../assets/habitaciones/habitacion_3/imagen_4.jpg",
+            "../assets/habitaciones/habitacion_3/imagen_5.jpg",
+            "../assets/habitaciones/habitacion_3/imagen_6.jpg",
+            "../assets/habitaciones/habitacion_3/imagen_7.jpg",
+            "../assets/habitaciones/habitacion_3/imagen_8.jpg",
+            "../assets/habitaciones/habitacion_3/imagen_9.jpg"
+        ]
+    },{
+        "id": 4,
+        "tipo": "Sencilla",
+        "nombre": "Pavas",
+        "precio": 50000,
+        "numeroPersonas": 2,
+        "imagenes": [
+            "../assets/habitaciones/habitacion_4/imagen_1.jpg",
+            "../assets/habitaciones/habitacion_4/imagen_2.jpg",
+            "../assets/habitaciones/habitacion_4/imagen_3.jpg",
+            "../assets/habitaciones/habitacion_4/imagen_4.jpg",
+            "../assets/habitaciones/habitacion_4/imagen_5.jpg",
+            "../assets/habitaciones/habitacion_4/imagen_6.jpg",
+            "../assets/habitaciones/habitacion_4/imagen_7.jpg",
+            "../assets/habitaciones/habitacion_4/imagen_8.jpg",
+            "../assets/habitaciones/habitacion_4/imagen_9.jpg"
+        ]
+    },{
+        "id": 5,
+        "tipo": "Multiple",
+        "nombre": "Fachadas",
+        "precio": 50000,
+        "numeroPersonas": 2,
+        "imagenes": [
+            "../assets/habitaciones/habitacion_5/imagen_1.jpg",
+            "../assets/habitaciones/habitacion_5/imagen_2.jpg",
+            "../assets/habitaciones/habitacion_5/imagen_3.jpg",
+            "../assets/habitaciones/habitacion_5/imagen_4.jpg"
+        ]
+    },{
+        "id": 6,
+        "tipo": "Multiple",
+        "nombre": "Paraiso",
+        "precio": 50000,
+        "numeroPersonas": 5,
+        "imagenes": [
+            "../assets/habitaciones/habitacion_6/imagen_1.jpg",
+            "../assets/habitaciones/habitacion_6/imagen_2.jpg",
+            "../assets/habitaciones/habitacion_6/imagen_3.jpg",
+            "../assets/habitaciones/habitacion_6/imagen_4.jpg",
+            "../assets/habitaciones/habitacion_6/imagen_5.jpg"
+        ]
+    },{
+        "id": 7,
+        "tipo": "Sencilla",
+        "nombre": "Lotería",
+        "precio": 50000,
+        "numeroPersonas": 2,
+        "imagenes": [
+            "../assets/habitaciones/habitacion_7/imagen_1.jpg",
+            "../assets/habitaciones/habitacion_7/imagen_2.jpg",
+            "../assets/habitaciones/habitacion_7/imagen_3.jpg",
+            "../assets/habitaciones/habitacion_7/imagen_4.jpg"
         ]
     }
 ]

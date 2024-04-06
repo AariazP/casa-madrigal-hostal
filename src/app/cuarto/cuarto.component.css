@@ -1,0 +1,18 @@
+#cuarto{
+    margin: 30px;
+    max-height: 50%;
+}
+
+.image {
+    width: 100%;
+    height: 150px;
+    max-width: 100px;
+    max-width: 150px;
+}
+#accordion .accordion-item h2 button{
+    background-color: RGB(246, 85, 137);
+    border-radius: 0;
+    color: white;
+    margin-top: -1px;
+    width: 100%;
+}

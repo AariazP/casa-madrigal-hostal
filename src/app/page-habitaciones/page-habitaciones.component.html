@@ -1,12 +1,10 @@
 <app-head/>
 <app-info-habitaciones/>
-@for(habitacion of listaHabitaciones; track habitacion;){
-    <div>
-        <!--Convierto habitacion a json-->
-        <p>precio {{habitacion.precio}}</p>
-        <p>descripcion {{habitacion.descripcion}}</p>
-        @for(imagen of habitacion.img; track imagen;){
-            <img src="{{imagen}}" alt="imagen de habitacion">
-        }
-    </div>
-}
+<div class="row">
+    @for(habitacion of listaHabitaciones; track habitacion;){
+        
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <app-cuarto [cuarto]="habitacion"></app-cuarto>
+            </div>
+    }
+</div>
