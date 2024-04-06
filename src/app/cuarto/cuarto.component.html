@@ -4,7 +4,7 @@
         <div class="carousel-inner">
           @for(imagen of cuarto.imagenes; track imagen;let idx = $index){
             <div class="carousel-item" [ngClass]="{'active': idx === 0}">
-              <img [src]="imagen" class="d-block w-100 imagen img-fluid" [alt]="cuarto.nombre">
+              <img [src]="imagen" loading="lazy" class="d-block w-100 imagen img-fluid" [alt]="cuarto.nombre">
             </div>
           }        
         </div>
