@@ -1,0 +1,32 @@
+[
+    {
+        "tipo": "individual",
+        "precio": 50,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec purus.",
+        "imagenes": [
+            "https://via.placeholder.com/150",
+            "https://via.placeholder.com/150",
+            "https://via.placeholder.com/150"
+        ]
+    },
+    {
+        "tipo": "doble",
+        "precio": 80,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec purus.",
+        "imagenes": [
+            "https://via.placeholder.com/150",
+            "https://via.placeholder.com/150",
+            "https://via.placeholder.com/150"
+        ]
+    },
+    {
+        "tipo": "triple",
+        "precio": 100,
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus nec purus.",
+        "imagenes": [
+            "https://via.placeholder.com/150",
+            "https://via.placeholder.com/150",
+            "https://via.placeholder.com/150"
+        ]
+    }
+]

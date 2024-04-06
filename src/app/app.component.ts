@@ -8,6 +8,7 @@ import { InfoComponent } from './info/info.component';
 import { InfoHabitacionComponent } from './info-habitacion/info-habitacion.component';
 import { DoFilandiaComponent } from './do-filandia/do-filandia.component';
 import { ContactenosComponent } from './contactenos/contactenos.component';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
     selector: 'app-root',
