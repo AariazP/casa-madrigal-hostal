@@ -10,4 +10,5 @@ export interface CuartoDTO {
     desayuno: boolean;
     idNombre: string;
     television: boolean;
+    banioCompartido: boolean;
 }

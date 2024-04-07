@@ -27,8 +27,13 @@
         <img src="../../assets/icons/banio.png" id="banio">Baño privado
       </p>
       }
+      @if(cuarto.banioCompartido){
       <p class="text-center">
-        <i class="bi bi-people"></i> Capacidad: {{cuarto.numeroPersonas}}
+        <img src="../../assets/icons/banio.png" id="banio">Baño compartido
+      </p>
+      }
+      <p class="text-center">
+        <i class="bi bi-people"></i> {{cuarto.numeroPersonas}} personas
       </p>
       <p class="text-center">
         <i class="bi bi-wifi"></i> Wifi
@@ -38,9 +43,6 @@
         <i class="bi bi-tv"></i> Televisión
       </p>
       }
-      <p class="text-center">
-        <img src="../../assets/icons/deasyuno.png" id="deasyuno"> desayuno
-      </p>
       <button class="mb-0 btn btn-primary" id="btn-habitacion" (click)="verOpciones()" >Quiero esta habitación</button>
     </div>
   </div>
