@@ -9,7 +9,7 @@
         "banio": true,
         "wifi": true,
         "desayuno": true,
-        "television": true,
+        "television": false,
         "imagenes": [
             "../assets/cabanias/imagen_1.jpg",
             "../assets/cabanias/imagen_2.jpg",
@@ -29,7 +29,7 @@
         "banio": true,
         "wifi": true,
         "desayuno": true,
-        "television": true,
+        "television": false,
         "imagenes": [
             "../assets/cabanias/imagen_1.jpg",
             "../assets/cabanias/imagen_2.jpg",
@@ -49,7 +49,7 @@
         "banio": true,
         "wifi": true,
         "desayuno": true,
-        "television": true,
+        "television": false,
         "imagenes": [
             "../assets/cabanias/imagen_1.jpg",
             "../assets/cabanias/imagen_2.jpg",
@@ -69,7 +69,7 @@
         "banio": true,
         "wifi": true,
         "desayuno": true,
-        "television": true,
+        "television": false,
         "imagenes": [
             "../assets/cabanias/imagen_1.jpg",
             "../assets/cabanias/imagen_2.jpg",
@@ -89,7 +89,7 @@
         "banio": true,
         "wifi": true,
         "desayuno": true,
-        "television": true,
+        "television": false,
         "imagenes": [
             "../assets/cabanias/imagen_1.jpg",
             "../assets/cabanias/imagen_2.jpg",
