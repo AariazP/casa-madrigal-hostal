@@ -9,6 +9,7 @@
         "banio": true,
         "wifi": true,
         "desayuno": true,
+        "television": true,
         "imagenes": [
             "../assets/habitaciones/habitacion_1/imagen_1.jpg",
             "../assets/habitaciones/habitacion_1/imagen_2.jpg",
@@ -30,6 +31,7 @@
         "banio": true,
         "wifi": true,
         "desayuno": true,
+        "television": true,
         "imagenes": [
             "../assets/habitaciones/habitacion_2/imagen_1.jpg",
             "../assets/habitaciones/habitacion_2/imagen_2.jpg",
@@ -49,6 +51,7 @@
         "banio": true,
         "wifi": true,
         "desayuno": true,
+        "television": true,
         "imagenes": [
             "../assets/habitaciones/habitacion_3/imagen_1.jpg",
             "../assets/habitaciones/habitacion_3/imagen_2.jpg",
@@ -70,6 +73,7 @@
         "banio": true,
         "wifi": true,
         "desayuno": true,
+        "television": true,
         "imagenes": [
             "../assets/habitaciones/habitacion_4/imagen_1.jpg",
             "../assets/habitaciones/habitacion_4/imagen_2.jpg",
@@ -91,6 +95,7 @@
         "banio": true,
         "wifi": true,
         "desayuno": true,
+        "television": true,
         "imagenes": [
             "../assets/habitaciones/habitacion_5/imagen_1.jpg",
             "../assets/habitaciones/habitacion_5/imagen_2.jpg",
@@ -107,6 +112,7 @@
         "banio": true,
         "wifi": true,
         "desayuno": true,
+        "television": true,
         "imagenes": [
             "../assets/habitaciones/habitacion_6/imagen_1.jpg",
             "../assets/habitaciones/habitacion_6/imagen_2.jpg",
@@ -124,6 +130,7 @@
         "banio": true,
         "wifi": true,
         "desayuno": true,
+        "television": true,
         "imagenes": [
             "../assets/habitaciones/habitacion_7/imagen_1.jpg",
             "../assets/habitaciones/habitacion_7/imagen_2.jpg",

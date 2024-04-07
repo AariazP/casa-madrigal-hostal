@@ -9,4 +9,5 @@ export interface CuartoDTO {
     wifi: boolean;
     desayuno: boolean;
     idNombre: string;
+    television: boolean;
 }

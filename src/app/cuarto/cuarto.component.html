@@ -1,33 +1,47 @@
 <div id="cuarto">
-    <h3 class="text-center">{{cuarto.nombre}}</h3>
-    <div [id]="cuarto.idNombre" class="carousel slide">
-        <div class="carousel-inner">
-          @for(imagen of cuarto.imagenes; track imagen;let idx = $index){
-            <div class="carousel-item" [ngClass]="{'active': idx === 0}">
-              <img [src]="imagen" loading="lazy" class="d-block w-100 imagen img-fluid" [alt]="cuarto.idNombre">
-            </div>
-          }        
-        </div>
-        <button class="carousel-control-prev" type="button"[attr.data-bs-target]="'#'+cuarto.idNombre" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" [attr.data-bs-target]="'#'+cuarto.idNombre"  data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+  <h3 class="text-center" id="title-cuarto">{{cuarto.nombre}}</h3>
+  <div [id]="cuarto.idNombre" class="carousel slide">
+    <div class="carousel-inner">
+      @for(imagen of cuarto.imagenes; track imagen;let idx = $index){
+      <div class="carousel-item" [ngClass]="{'active': idx === 0}">
+        <img [src]="imagen" loading="lazy" class="d-block w-100 imagen img-fluid" [alt]="cuarto.idNombre">
+      </div>
+      }
     </div>
-    <div>
-      <h3 class="text-center">Características</h3>
-      
+    <button class="carousel-control-prev" type="button" [attr.data-bs-target]="'#'+cuarto.idNombre"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" [attr.data-bs-target]="'#'+cuarto.idNombre"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div>
+    <h3 class="text-center" id="title-caracteristicas">Características</h3>
+    <div id="caracteristicas-cuarto" class="d-flex justify-content-center align-items-center flex-column">
       @if(cuarto.banio){
-        <p class="text-center">
-          <img src="../../assets/icons/banio.png" id="banio">Baño privado
-        </p>
+      <p class="text-center">
+        <img src="../../assets/icons/banio.png" id="banio">Baño privado
+      </p>
       }
       <p class="text-center">
         <i class="bi bi-people"></i> Capacidad: {{cuarto.numeroPersonas}}
       </p>
-      
-    </div>  
+      <p class="text-center">
+        <i class="bi bi-wifi"></i> Wifi
+      </p>
+      @if(cuarto.television){
+      <p class="text-center">
+        <i class="bi bi-tv"></i> Televisión
+      </p>
+      }
+      <p class="text-center">
+        <img src="../../assets/icons/deasyuno.png" id="deasyuno"> desayuno
+      </p>
+      <button class="mb-0 btn btn-primary" id="btn-habitacion" (click)="verOpciones()" >Quiero esta habitación</button>
+    </div>
+  </div>
 </div>

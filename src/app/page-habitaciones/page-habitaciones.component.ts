@@ -6,13 +6,14 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { CuartoComponent } from "../cuarto/cuarto.component";
 import { HabitacionDTO } from '../DTO/habitacionDTO';
+import { ContactenosComponent } from "../contactenos/contactenos.component";
 
 @Component({
     selector: 'app-page-habitaciones',
     standalone: true,
     templateUrl: './page-habitaciones.component.html',
     styleUrl: './page-habitaciones.component.css',
-    imports: [HeadComponent, InfoComponent, InfoHabitacionesComponent, CuartoComponent]
+    imports: [HeadComponent, InfoComponent, InfoHabitacionesComponent, CuartoComponent, ContactenosComponent]
 })
 export class PageHabitacionesComponent {
 
