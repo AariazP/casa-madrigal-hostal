@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "tipo": "Multiple",
+        "nombre": "La Julia",
+        "idNombre": "la_julia",
+        "precio": 50000,
+        "numeroPersonas": 2,
+        "banio": true,
+        "wifi": true,
+        "desayuno": true,
+        "television": true,
+        "imagenes": [
+            "../assets/cabanias/imagen_1.jpg",
+            "../assets/cabanias/imagen_2.jpg",
+            "../assets/cabanias/imagen_3.jpg",
+            "../assets/cabanias/imagen_4.jpg",
+            "../assets/cabanias/imagen_5.jpg",
+            "../assets/cabanias/imagen_6.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "tipo": "Multiple",
+        "nombre": "Morelia",
+        "idNombre": "morelia",
+        "precio": 50000,
+        "numeroPersonas": 2,
+        "banio": true,
+        "wifi": true,
+        "desayuno": true,
+        "television": true,
+        "imagenes": [
+            "../assets/cabanias/imagen_1.jpg",
+            "../assets/cabanias/imagen_2.jpg",
+            "../assets/cabanias/imagen_3.jpg",
+            "../assets/cabanias/imagen_4.jpg",
+            "../assets/cabanias/imagen_5.jpg",
+            "../assets/cabanias/imagen_6.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "tipo": "Multiple",
+        "nombre": "Congal",
+        "idNombre": "congal",
+        "precio": 50000,
+        "numeroPersonas": 2,
+        "banio": true,
+        "wifi": true,
+        "desayuno": true,
+        "television": true,
+        "imagenes": [
+            "../assets/cabanias/imagen_1.jpg",
+            "../assets/cabanias/imagen_2.jpg",
+            "../assets/cabanias/imagen_3.jpg",
+            "../assets/cabanias/imagen_4.jpg",
+            "../assets/cabanias/imagen_5.jpg",
+            "../assets/cabanias/imagen_6.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "tipo": "Multiple",
+        "nombre": "Cauchera",
+        "idNombre": "cauchera",
+        "precio": 50000,
+        "numeroPersonas": 2,
+        "banio": true,
+        "wifi": true,
+        "desayuno": true,
+        "television": true,
+        "imagenes": [
+            "../assets/cabanias/imagen_1.jpg",
+            "../assets/cabanias/imagen_2.jpg",
+            "../assets/cabanias/imagen_3.jpg",
+            "../assets/cabanias/imagen_4.jpg",
+            "../assets/cabanias/imagen_5.jpg",
+            "../assets/cabanias/imagen_6.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "tipo": "Multiple",
+        "nombre": "Bambuco",
+        "idNombre": "bambuco",
+        "precio": 50000,
+        "numeroPersonas": 2,
+        "banio": true,
+        "wifi": true,
+        "desayuno": true,
+        "television": true,
+        "imagenes": [
+            "../assets/cabanias/imagen_1.jpg",
+            "../assets/cabanias/imagen_2.jpg",
+            "../assets/cabanias/imagen_3.jpg",
+            "../assets/cabanias/imagen_4.jpg",
+            "../assets/cabanias/imagen_5.jpg",
+            "../assets/cabanias/imagen_6.jpg"
+        ]
+    }
+]

@@ -1,1 +1,11 @@
-<p>page-cabanias works!</p>
+<app-head/>
+<h1 class="text-center">Nuestras caba&ntilde;as</h1>
+<div class="row" >
+    @for(habitacion of listaCabanias; track habitacion;){
+        
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <app-cuarto [cuarto]="habitacion"></app-cuarto>
+            </div>
+    }
+</div>
+<app-contactenos/>
