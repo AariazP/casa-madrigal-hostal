@@ -113,7 +113,7 @@
         "nombre": "Paraiso",
         "idNombre": "paraiso",
         "precio": 50000,
-        "numeroPersonas": 5,
+        "numeroPersonas": 2,
         "banio": true,
         "banioCompartido": false,
         "wifi": true,
