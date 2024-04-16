@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 
 @Component({
   selector: 'app-info-habitacion',
   standalone: true,
-  imports: [],
+  imports: [NgOptimizedImage, CommonModule],
   templateUrl: './info-habitacion.component.html',
   styleUrl: './info-habitacion.component.css'
 })

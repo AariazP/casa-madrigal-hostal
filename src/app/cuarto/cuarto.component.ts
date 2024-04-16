@@ -1,12 +1,12 @@
 import { Component, Input } from '@angular/core';
 import { CuartoDTO } from '../DTO/cuartoDTO';
-import { NgClass } from '@angular/common';
+import { CommonModule, NgClass, NgOptimizedImage } from '@angular/common';
 import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cuarto',
   standalone: true,
-  imports: [NgClass],
+  imports: [NgClass, NgOptimizedImage, CommonModule],
   templateUrl: './cuarto.component.html',
   styleUrl: './cuarto.component.css'
 })
