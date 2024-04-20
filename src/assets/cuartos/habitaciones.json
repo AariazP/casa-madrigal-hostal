@@ -144,5 +144,25 @@
             "../assets/habitaciones/habitacion_7/imagen_3.jpg",
             "../assets/habitaciones/habitacion_7/imagen_4.jpg"
         ]
+    },{
+        "id": 8,
+        "tipo": "Sencilla",
+        "nombre": "La palmera",
+        "idNombre": "la_palmera",
+        "precio": 50000,
+        "numeroPersonas": 5,
+        "banio": true,
+        "banioCompartido": false,
+        "wifi": true,
+        "desayuno": false,
+        "television": true,
+        "imagenes": [
+            "../assets/habitaciones/habitacion_8/imagen_1.jpg",
+            "../assets/habitaciones/habitacion_8/imagen_2.jpg",
+            "../assets/habitaciones/habitacion_8/imagen_4.jpg",
+            "../assets/habitaciones/habitacion_8/imagen_5.jpg",
+            "../assets/habitaciones/habitacion_8/imagen_6.jpg"
+        ]
     }
+
 ]
